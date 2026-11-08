@@ -1,10 +1,10 @@
-# 🌟 NeonTabs (Universal Client-Side Counter App)
+#  NeonTabs (Universal Client-Side Counter App)
 
 **NeonTabs** เป็นเว็บแอปพลิเคชันประเภท Progressive Web App (PWA) ที่ออกแบบมาเพื่อการนับแต้มและติดตามข้อมูลต่างๆ แบบออฟไลน์ 100% (Client-side No Backend) เน้นความเป็นส่วนตัวสูงสุด (Privacy-first) และดีไซน์แบบ High-Contrast Dark Mode ตัดกับแสงไฟนีออนเรืองแสง เหมาะสำหรับทั้งการใช้งานทั่วไป, เล่นกีฬา, นับสถิติ หรือทำกิจกรรมต่างๆ
 
 ---
 
-## 🚀 ฟีเจอร์เด่น (Key Features)
+##  ฟีเจอร์เด่น (Key Features)
 
 1. **100% Client-Side & Privacy-First**
    - ประมวลผลและจัดเก็บข้อมูลทั้งหมดลงในเบราว์เซอร์ผ่าน `localStorage` ปลอดภัย ไม่มีข้อมูลถูกส่งขึ้นเซิร์ฟเวอร์
@@ -26,7 +26,7 @@
 
 ---
 
-## 📁 โครงสร้างไฟล์ในโฟลเดอร์ `NeonTabs`
+##  โครงสร้างไฟล์ในโฟลเดอร์ `NeonTabs`
 
 ```text
 NeonTabs/
@@ -39,7 +39,7 @@ NeonTabs/
 
 ---
 
-## 🛠️ วิธีการใช้งานและการติดตั้ง (Getting Started)
+##  วิธีการใช้งานและการติดตั้ง (Getting Started)
 
 1. **เปิดใช้งานผ่าน Static Server:**
    คุณสามารถรันเว็บเซิร์ฟเวอร์แบบง่ายๆ ในโฟลเดอร์ `NeonTabs` เช่น:
