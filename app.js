@@ -540,14 +540,14 @@ function renderEditor() {
           <div id="subcounts-section" class="${cnt.type === 'single' ? 'hidden' : ''} space-y-3 bg-black/40 p-4 rounded-xl border border-white/10">
             <div class="flex items-center justify-between">
               <label class="text-xs font-semibold text-cyan-400 uppercase tracking-wider">จัดการทีม / ฝั่ง</label>
-              ${cnt.type === 'multi' ? '<button type="button" id="add-subcount-btn" class="text-xs bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-lg border border-cyan-500/45 hover:bg-cyan-500/30 transition">+ เพิ่มทีม</button>' : ''}
+              <button type="button" id="add-subcount-btn" class="text-xs bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-lg border border-cyan-500/45 hover:bg-cyan-500/30 transition">+ เพิ่มทีม</button>
             </div>
             <div id="subcounts-list" class="space-y-2">
               ${(cnt.subCounts || [{name: 'ทีม A', value: 0}, {name: 'ทีม B', value: 0}]).map((sub, i) => `
                 <div class="flex gap-2 items-center subcount-row">
                   <input type="text" value="${sub.name}" placeholder="ชื่อทีม ${i+1}" class="sub-name-input flex-grow bg-black border border-white/20 rounded-lg px-3 py-2 text-sm text-white outline-none focus:border-cyan-400">
                   <input type="number" value="${sub.value || 0}" class="sub-val-input w-20 bg-black border border-white/20 rounded-lg px-3 py-2 text-sm text-white outline-none focus:border-cyan-400">
-                  ${cnt.type === 'multi' ? '<button type="button" class="del-sub-btn text-red-400 hover:text-red-300 px-2 py-1">🗑️</button>' : ''}
+                  <button type="button" class="del-sub-btn text-red-400 hover:text-red-300 px-2 py-1" title="ลบทีมนี้">🗑️</button>
                 </div>
               `).join('')}
             </div>
